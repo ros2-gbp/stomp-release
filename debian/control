@@ -1,0 +1,12 @@
+Source: ros-humble-stomp
+Section: misc
+Priority: optional
+Maintainer: Jorge Nicho <jrgnichodevel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, libconsole-bridge-dev, libeigen3-dev, libgtest-dev <!nocheck>, ros-humble-ros-industrial-cmake-boilerplate, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/stomp
+Standards-Version: 3.9.2
+
+Package: ros-humble-stomp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libconsole-bridge-dev, libeigen3-dev, ros-humble-ros-workspace
+Description: This package provides the STOMP (Stochastic Trajectory Optimization for Motion Planning) algorithm that can be used for robot motion planning tasks or other similar optimization tasks
