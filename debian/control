@@ -1,0 +1,12 @@
+Source: ros-lyrical-stomp
+Section: misc
+Priority: optional
+Maintainer: Jorge Nicho <jrgnichodevel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, libconsole-bridge-dev, libeigen3-dev, libgtest-dev <!nocheck>, ros-lyrical-ros-industrial-cmake-boilerplate, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/stomp
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-stomp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libconsole-bridge-dev, libeigen3-dev, ros-lyrical-ros-workspace
+Description: This package provides the STOMP (Stochastic Trajectory Optimization for Motion Planning) algorithm that can be used for robot motion planning tasks or other similar optimization tasks
